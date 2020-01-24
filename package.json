@@ -1,0 +1,28 @@
+{
+  "name": "type-script-template",
+  "version": "0.0.0",
+  "description": "template of a typescript project",
+  "license": "UNLICENSED",
+  "main": "index.ts",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "dev:debug": "nodemon --inspect ./index.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.14",
+    "jest": "^25.1.0",
+    "jest-mock-extended": "^1.0.7",
+    "nodemon": "^2.0.2",
+    "ts-jest": "^25.0.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/jest": "^24.9.1",
+    "dotenv": "^8.2.0"
+  }
+}
